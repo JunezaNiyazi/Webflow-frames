@@ -12,7 +12,10 @@
   const script = document.createElement('script');
   script.src = `${BASE}/${profile}-frames.js`;
   script.onload = function () {
-    document.dispatchEvent(new Event('framesReady'));
+    // Small delay to ensure page settings code has registered its listener
+    setTimeout(function() {
+      document.dispatchEvent(new Event('framesReady'));
+    }, 100);
   };
   script.onerror = function () {
     console.error('Failed to load frames for profile:', profile);
