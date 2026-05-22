@@ -7,22 +7,19 @@
   }
 
   const profile = getProfile();
-  const BASE = 'https://raw.githubusercontent.com/JunezaNiyazi/Webflow-frames/main';
+  const BASE = 'https://cdn.jsdelivr.net/gh/JunezaNiyazi/Webflow-frames@d138d66';
 
   const script = document.createElement('script');
   script.src = `${BASE}/${profile}-frames.js`;
   script.onload = function () {
-    // Small delay to ensure page settings code has registered its listener
-      console.log('Frames file loaded successfully');
-
+    console.log('Frames file loaded:', profile);
     setTimeout(function() {
       document.dispatchEvent(new Event('framesReady'));
     }, 100);
   };
   script.onerror = function () {
     console.error('Failed to load frames for profile:', profile);
-      console.error('Tried to load:', script.src);
-
+    console.error('Tried to load:', script.src);
   };
   document.head.appendChild(script);
 })();
