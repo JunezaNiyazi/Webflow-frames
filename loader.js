@@ -13,12 +13,16 @@
   script.src = `${BASE}/${profile}-frames.js`;
   script.onload = function () {
     // Small delay to ensure page settings code has registered its listener
+      console.log('Frames file loaded successfully');
+
     setTimeout(function() {
       document.dispatchEvent(new Event('framesReady'));
     }, 100);
   };
   script.onerror = function () {
     console.error('Failed to load frames for profile:', profile);
+      console.error('Tried to load:', script.src);
+
   };
   document.head.appendChild(script);
 })();
