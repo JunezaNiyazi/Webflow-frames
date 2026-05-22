@@ -166,7 +166,7 @@ window.FRAMES = {
 'https://cdn.prod.website-files.com/6a05615b47e83d8ce3e2edce/6a104e71280b6925d8dafbee_1_3118.avif',
 'https://cdn.prod.website-files.com/6a05615b47e83d8ce3e2edce/6a104e71142a5a99766802e2_1_3119.avif'],
 
-  scenes = [
+  scenes: [
     {
       sectionId: 'zoom_TV',
       frameId: 'Zoom_Stillframe',
