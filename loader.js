@@ -7,7 +7,7 @@
   }
 
   const profile = getProfile();
-  const BASE = 'https://cdn.jsdelivr.net/gh/JunezaNiyazi/Webflow-frames@main/desktop-frames.js';
+  const BASE = 'https://cdn.jsdelivr.net/gh/JunezaNiyazi/Webflow-frames@main/desktop-frames-v2.js';
 
   const script = document.createElement('script');
   script.src = `${BASE}/${profile}-frames.js`;
