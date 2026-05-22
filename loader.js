@@ -7,10 +7,10 @@
   }
 
   const profile = getProfile();
-  const BASE = 'https://cdn.jsdelivr.net/gh/JunezaNiyazi/Webflow-frames@main/desktop-frames-v2.js';
+  const BASE = 'https://cdn.jsdelivr.net/gh/JunezaNiyazi/Webflow-frames@main';
 
   const script = document.createElement('script');
-  script.src = `${BASE}/${profile}-frames.js`;
+  script.src = `${BASE}/${profile}-frames-v2.js`;
   script.onload = function () {
     console.log('Frames file loaded:', profile);
     setTimeout(function() {
