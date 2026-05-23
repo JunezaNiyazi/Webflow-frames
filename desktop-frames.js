@@ -1,5 +1,5 @@
-window.FRAMES = {
-  spinFrames: [
+
+var spinFrames = [
 'https://cdn.prod.website-files.com/6a05615b47e83d8ce3e2edce/6a104c3198c2563180bf6071_1_3001.avif', 
 'https://cdn.prod.website-files.com/6a05615b47e83d8ce3e2edce/6a104c3143627525021e8612_1_3002.avif',
 'https://cdn.prod.website-files.com/6a05615b47e83d8ce3e2edce/6a104c31464565f52df5e1b1_1_3003.avif',
@@ -44,10 +44,9 @@ window.FRAMES = {
 'https://cdn.prod.website-files.com/6a05615b47e83d8ce3e2edce/6a104c333aea24a0b26b2acf_1_3042.avif',
 'https://cdn.prod.website-files.com/6a05615b47e83d8ce3e2edce/6a104c33d20cf8d214eade3d_1_3043.avif',
 'https://cdn.prod.website-files.com/6a05615b47e83d8ce3e2edce/6a104c3c6c239080b8403514_1_3044.avif'
-],
+];
 
-  
-  clickFrames: [
+var clickFrames = [
 'https://cdn.prod.website-files.com/6a05615b47e83d8ce3e2edce/6a1053a0e212d5e6ee184efe_1_3045.avif',
 'https://cdn.prod.website-files.com/6a05615b47e83d8ce3e2edce/6a1053a06e3eb701d2647c43_1_3046.avif',
 'https://cdn.prod.website-files.com/6a05615b47e83d8ce3e2edce/6a1053a0d1777b54b37925a7_1_3047.avif',
@@ -77,9 +76,10 @@ window.FRAMES = {
 'https://cdn.prod.website-files.com/6a05615b47e83d8ce3e2edce/6a1053a03c6714b8fc7f9e9f_1_3071.avif',
 'https://cdn.prod.website-files.com/6a05615b47e83d8ce3e2edce/6a1053a11e0fe55e231ef147_1_3072.avif',
 'https://cdn.prod.website-files.com/6a05615b47e83d8ce3e2edce/6a1053a01e0fe55e231ef10f_1_3073.avif',
-'https://cdn.prod.website-files.com/6a05615b47e83d8ce3e2edce/6a1053a07472a55f3ddf64d3_1_3074.avif'],
+'https://cdn.prod.website-files.com/6a05615b47e83d8ce3e2edce/6a1053a07472a55f3ddf64d3_1_3074.avif'];
+
   
-  clickFrames2: [
+var clickFrames2 = [
 'https://cdn.prod.website-files.com/6a05615b47e83d8ce3e2edce/6a10536bd0e6ebaacf755743_1_201.png',
 'https://cdn.prod.website-files.com/6a05615b47e83d8ce3e2edce/6a10536c5cd86228ed9dccb7_1_202.avif',
 'https://cdn.prod.website-files.com/6a05615b47e83d8ce3e2edce/6a10536c188c7947bc001be8_1_203.avif',
@@ -107,10 +107,11 @@ window.FRAMES = {
 'https://cdn.prod.website-files.com/6a05615b47e83d8ce3e2edce/6a10536c62a775452f955dc3_1_225.avif',
 'https://cdn.prod.website-files.com/6a05615b47e83d8ce3e2edce/6a10536cd84a7b7dbd22ce63_1_226.avif',
 'https://cdn.prod.website-files.com/6a05615b47e83d8ce3e2edce/6a10536c3dfd062c0ed3a193_1_227.avif',
-'https://cdn.prod.website-files.com/6a05615b47e83d8ce3e2edce/6a10536c7af399a754bef706_1_228.avif'],
+'https://cdn.prod.website-files.com/6a05615b47e83d8ce3e2edce/6a10536c7af399a754bef706_1_228.avif'];
 
   
-  scrollFrames: ['https://cdn.prod.website-files.com/6a05615b47e83d8ce3e2edce/6a1053d762a775452f95e7d9_1_3075.avif',
+var scrollFrames = [
+'https://cdn.prod.website-files.com/6a05615b47e83d8ce3e2edce/6a1053d762a775452f95e7d9_1_3075.avif',
 'https://cdn.prod.website-files.com/6a05615b47e83d8ce3e2edce/6a1053d1b23f0dc2d8a3fd3c_1_3076.avif',
 'https://cdn.prod.website-files.com/6a05615b47e83d8ce3e2edce/6a1053d1d373e62c2b1d325b_1_3077.avif',
 'https://cdn.prod.website-files.com/6a05615b47e83d8ce3e2edce/6a1053d1daf285aecbe52825_1_3078.avif',
@@ -154,9 +155,9 @@ window.FRAMES = {
 'https://cdn.prod.website-files.com/6a05615b47e83d8ce3e2edce/6a1053d2d42e4db4ee845e57_1_3116.avif',
 'https://cdn.prod.website-files.com/6a05615b47e83d8ce3e2edce/6a1053d3ff9d7def23ac9af3_1_3117.avif',
 'https://cdn.prod.website-files.com/6a05615b47e83d8ce3e2edce/6a1053d3036b675c56412e44_1_3118.avif',
-'https://cdn.prod.website-files.com/6a05615b47e83d8ce3e2edce/6a1053d3c35662d311c3e2ac_1_3119.avif'],
+'https://cdn.prod.website-files.com/6a05615b47e83d8ce3e2edce/6a1053d3c35662d311c3e2ac_1_3119.avif'];
 
-  scenes: [
+  var scenes = [
     {
       sectionId: 'zoom_TV',
       frameId: 'Zoom_Stillframe',
@@ -559,7 +560,6 @@ window.FRAMES = {
 'https://cdn.prod.website-files.com/6a05615b47e83d8ce3e2edce/6a0b14f21e3ffe1e7b006f05_0577.avif',
 'https://cdn.prod.website-files.com/6a05615b47e83d8ce3e2edce/6a0b14f25ef494ff0cd4923a_0578.avif',
 'https://cdn.prod.website-files.com/6a05615b47e83d8ce3e2edce/6a0b14f239febb098a597d2a_0579.avif',
-'https://cdn.prod.website-files.com/6a05615b47e83d8ce3e2edce/6a0b14f286a32cd5a3a1a106_0580.avif'], // your frame URLs for scene 1
+'https://cdn.prod.website-files.com/6a05615b47e83d8ce3e2edce/6a0b14f286a32cd5a3a1a106_0580.avif'] 
     },  
- ]
- };
+ ];
